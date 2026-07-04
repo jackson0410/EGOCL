@@ -27,5 +27,5 @@ python src/preprocess/build_doid_paths.py
 
 ##  EGOCL 
 ```bash
-python src/train.py --num_folds 5 --epochs 100 --hidden_dim 128 --num_layers 2 --batch_size 512 --lr 0.001 --dropout 0.2 --weight_decay 1e-5 --patience 20 --use_evidence_gate --use_ontology --use_path_attention --use_direction --use_tsrna_attr --use_tsrna_seq --tsrna_kmer 3 --tsrna_attr_fusion gated --use_attr_contrastive --attr_cl_weight 0.05 --output_dir results/egocl_tsrna_attr
+python src/train.py --num_folds 5 --epochs 100 --hidden_dim 128 --num_layers 2 --batch_size 512 --lr 0.001 --dropout 0.2 --weight_decay 1e-5 --patience 20
 ```
